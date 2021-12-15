@@ -1,0 +1,11 @@
+@import 'build/scss/variables';
+
+.fcl-navbar,
+.ds-button.-primary,
+a.a-linkIconOnly:active, a.a-linkIconOnly:hover, button.a-linkIconOnly:active, button.a-linkIconOnly:hover {
+  background: $color-primary !important;
+}
+
+.ds-bgcolor-downy {
+  background: $color-secondary !important;
+}

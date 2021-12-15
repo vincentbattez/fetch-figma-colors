@@ -1,0 +1,20 @@
+{
+  "name": "fetch-figma-colors",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "fetch-figma-colors.js",
+  "scripts": {
+    "watch": "node-sass ./style.scss ./style.css -w",
+    "build": "style-dictionary build && node-sass ./style.scss ./style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0"
+  }
+}
